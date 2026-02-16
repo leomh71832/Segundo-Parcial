@@ -22,13 +22,13 @@ for i in range(num):
     alumnos.append(alumno)
     #mostrar la cantidad de alumnos ingresados
 if alumnos:
-total_calificaciones = sum(alumno["calificacion"] for alumno in alumnos)
-promedio = total_calificaciones / len( alumnos)
-print (f"Promedio de calificaciones: {promedio}")
+    total_calificaciones = sum(alumno["calificacion"] for alumno in alumnos)
+    promedio = total_calificaciones / len( alumnos)
+    print (f"Promedio de calificaciones: {promedio}")
 
 else:
     print("NO SE INGRESARON CALIFICACIONES")
 
 
-print("La lista completa de alumnos:")
+print("La lista completa de alumnos:")#muestra la lista completa
 
